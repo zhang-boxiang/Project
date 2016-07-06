@@ -37,7 +37,6 @@ Tom=80
 James=100
 Peter=90
 print(Name[1]%Tom)
-
 Name=['Tom scored 80 points','James scored 100 points','Peter scored 90 points']
 Name.append('Danny scored 95 points')
 print(Name)
@@ -257,18 +256,9 @@ while guess!=2:
 print('Finally guessed')
     
 def pp():
-	print('10 years old')
-	print('English name is James')
+print('10 years old')
+print('English name is James')
 pp()
 
-def pp(James):
-    pp(James + 'is 10 years old')
-
-def yuan():
-    old_yuan=float(input('Old yuan:'))
-    rate=float(input('iscount:'))
-    new_yuan=yuan()
-    print('New yuan:',new_yuan)
-    return new_yuan
-
-yuan()
+import os
+os.mkdir('/Users/pp/Desktop/ffffff')

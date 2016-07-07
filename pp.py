@@ -256,9 +256,13 @@ while guess!=2:
 print('Finally guessed')
     
 def pp():
-print('10 years old')
-print('English name is James')
+    print('10 years old')
+    print('English name is James')
 pp()
 
-import os
-os.mkdir('/Users/pp/Desktop/pp')
+#import os
+#os.mkdir('/Users/pp/Desktop/666666')
+
+import random
+secret = random.randint(1,10)
+print(secret)

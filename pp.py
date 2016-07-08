@@ -266,3 +266,7 @@ pp()
 import random
 secret = random.randint(1,10)
 print(secret)
+
+import os
+print (os.listdir('/Users/pp/Desktop/'))
+

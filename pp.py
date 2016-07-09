@@ -270,3 +270,9 @@ print(secret)
 import os
 print (os.listdir('/Users/pp/Desktop/'))
 
+import random
+f = open('/Users/pp/Desktop/666666/pp.txt','w')
+for i in range(0,10):
+    for i in range(0,10):f.write(str(random.randint(0,9)))
+f.write('\n')
+f.close()

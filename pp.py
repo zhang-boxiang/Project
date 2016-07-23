@@ -276,3 +276,10 @@ for i in range(0,10):
     for i in range(0,10):f.write(str(random.randint(0,9)))
 f.write('\n')
 f.close()
+
+try:
+    f = open('HaHa.txt')
+    print(f.read())
+    f.close()
+except OSError as reason:
+    print('T_T\n Because:' + str(reason))

@@ -283,3 +283,13 @@ try:
     f.close()
 except OSError as reason:
     print('T_T\n Because:' + str(reason))
+else:
+    print('No Error')
+
+try:
+    with open('666666.txt','w')as f:
+        for each_line in f:
+            print(each_line)
+except OSError as reason:
+    print('T_T:' + str(reason))
+
